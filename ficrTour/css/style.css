@@ -1,0 +1,176 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+.container, .container2 {
+    max-width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* === CABEÇALHO === */
+header {
+    background-color: #78B3CE;
+}
+
+.header-top {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    font-size: 1.4em;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone {
+    color: #F96E2A;
+    font-weight: bold;
+}
+
+.top-menu-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-menu-right a {
+    color: #333;
+    text-decoration: none;
+}
+
+.top-menu-right a:hover {
+    color: #007bff;
+}
+
+.benefits-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #ffc107;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.notification-icon,
+.user-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #6c757d;
+    border-radius: 50%;
+}
+
+.header-main {
+    padding: 20px 0;
+    background-color: #78B3CE;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* === BLOCOS DE DESTINO === */
+
+.blocoFigura {
+    width: 30%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.blocoFigura:hover {
+    transform: scale(1.03);
+}
+
+.blocoFigura img {
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.blocoFigura h2 {
+    font-size: 2em;
+    margin: 15px 0;
+    color: #2593D1;
+}
+
+/* === SEÇÃO PERSONALIZAR ROTEIRO === */
+
+h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+p {
+    width: 48%;
+    text-align: justify;
+    font-size: 1.8em;
+    line-height: 1.6;
+}
+
+/* === MAPA/IFRAME === */
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+/* === RODAPÉ === */
+footer {
+    background: #5A9ECF;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* === RESPONSIVO === */
+@media screen and (max-width: 768px) {
+    .container, .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blocoFigura, p {
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 2.4em;
+    }
+
+    iframe {
+        width: 90%;
+        height: 250px;
+    }
+}
