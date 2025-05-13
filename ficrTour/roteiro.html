@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICR TRAVEL - Agência de Viagens Online</title>
+    <link rel="stylesheet" href="css/roteiro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="img/ficrtravellogo-removebg-preview.png" alt="FICR TRAVEL" class="logo">
+                <div class="logo-text">
+                  </div>
+            </div>
+            <div class="header-right">
+                <div class="contact">
+                    <i class="fas fa-headset"></i>
+                    <span>Televendas 0800 123 4567</span>
+                </div>
+                <div class="help">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Ajuda</span>
+                </div>
+                <div class="my-trips">
+                    <i class="fas fa-suitcase"></i>
+                    <span>Minhas Viagens</span>
+                </div>
+                <div class="benefits">
+                    <i class="fas fa-ticket-alt"></i>
+                    <div class="benefits-text">
+                        <span>Benefícios Passaporte</span>
+                        <small>Cupons, pontos e mais</small>
+                    </div>
+                </div>
+                <div class="user-profile">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <h2>Encontre seu próximo destino</h2>
+                <div class="search-form">
+                    <div class="search-input">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" placeholder="Para onde você vai?">
+                    </div>
+                    <div class="date-input">
+                        <i class="far fa-calendar-alt"></i>
+                        <input type="text" placeholder="Data de checkin - Data checkout">
+                    </div>
+                    <div class="guests-input">
+                        <i class="fas fa-user-friends"></i>
+                        <input type="text" value="2 adultos - 0 criança - 1 cômodo">
+                    </div>
+                    <button class="search-button">Buscar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="personalize-section">
+            <div class="container">
+                <h2>Personalize seu roteiro</h2>
+                <div class="options-grid">
+                    <div class="option-row">
+                        <div class="option">
+                            <input type="checkbox" id="casal">
+                            <label for="casal">Viagem em casal</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="sozinho">
+                            <label for="sozinho">Viagem sozinho</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="familia">
+                            <label for="familia">Viagem em família</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="amigos">
+                            <label for="amigos">Viagem em amigos</label>
+                        </div>
+                    </div>
+                    
+                    <div class="option-row">
+                        <div class="option">
+                            <input type="checkbox" id="primavera">
+                            <label for="primavera">Primavera</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="verao">
+                            <label for="verao">Verão</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="outono">
+                            <label for="outono">Outono</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="inverno">
+                            <label for="inverno">Inverno</label>
+                        </div>
+                    </div>
+                    
+                    <div class="option-row">
+                        <div class="option">
+                            <input type="checkbox" id="romantico">
+                            <label for="romantico">Romântico</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="aventura">
+                            <label for="aventura">Aventura</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="natureza">
+                            <label for="natureza">Natureza</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="festas">
+                            <label for="festas">Festas</label>
+                        </div>
+                    </div>
+                    
+                    <div class="option-row">
+                        <div class="option">
+                            <input type="checkbox" id="city-tour">
+                            <label for="city-tour">City tour</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="hotel-incluso">
+                            <label for="hotel-incluso">Hotel Incluso</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="gastronomia">
+                            <label for="gastronomia">Gastronomia</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" id="fotos">
+                            <label for="fotos">Sessão de fotos</label>
+                            <small>(No ponto turístico de sua escolha)</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button class="generate-button">Gerar Roteiro</button>
+                    <button class="back-button">Voltar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
