@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #2593D1;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+#formLogin {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #78B3CE;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1.5px solid #78B3CE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #f8f9fa;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #2593D1;
+    box-shadow: 0 0 5px rgba(37, 147, 209, 0.15);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2593D1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #78B3CE 0%, #2593D1 100%);
+}
+
+.erro {
+    background: #F96E2A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo-login {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 120px;
+    height: auto;
+} 
