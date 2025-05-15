@@ -26,7 +26,15 @@ if driver.current_url == url_home:
     print("redirecionamento bem-sucedido!")
 else:
     print(f"redirecionamento falhou. URL atual: {driver.current_url}")
-
+time.sleep(5)
+url_roteiro = "file:///C:/Users/eduardo/Downloads/ficrTour/roteiro.html"
+driver.get(url_roteiro)
+time.sleep(4)
+if driver.current_url == url_roteiro:
+    print("redirecionamento para roteiro bem-sucedido!")
+else:
+    print(f"redirecionamento para roteiro falhou. URL atual: {driver.current_url}")
+time.sleep(5)
 checkbox = driver.find_element(By.ID, "aceite")
 if not checkbox.is_selected():
     print("a caixa de selecao nao esta marcada inicialmente")
